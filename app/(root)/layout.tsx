@@ -1,8 +1,11 @@
+import LeftSidebar from "@/components/LeftSidebar";
+
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <main>
-        <p className="text-black-1">LeftSidebar</p>
+        <LeftSidebar />
+
         {children}
         <p className="text-black-1">RightSidebar</p>
       </main>
