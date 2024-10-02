@@ -3,11 +3,10 @@ import { sidebarLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const LeftSidebar = () => {
   const pathname = usePathname();
-  const router = useRouter();
 
   return (
     <section className="left_sidebar">
